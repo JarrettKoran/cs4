@@ -4,8 +4,8 @@ var bodyParser = require('body-parser');
 var mongoose = require("mongoose");
 var Info = require("./models/Info");
 
-mongoose.connect("mongodb://localhost/infodb");
-//mongoose.connect("mongodb://<username>:<password>@ds111111.mlab.com:11111/<databasename>");
+//mongoose.connect("mongodb://localhost/infodb");
+mongoose.connect("mongodb://jarrett:jarrett1@ds259305.mlab.com:59305/jarrett");
 
 
 var routes = require("./routes");
